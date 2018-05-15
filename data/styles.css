@@ -9,6 +9,17 @@
 }
 .box_1 {
 }
+.ellipse {
+}
+.checkbox {
+  text-align:left;
+}
+._流程形状 {
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
 .box_2 {
 }
 .box_3 {
@@ -55,6 +66,9 @@
   font-style:normal;
   font-size:10px;
   text-align:left;
+}
+._图片 {
+  color:#000000;
 }
 .label {
   font-size:14px;
