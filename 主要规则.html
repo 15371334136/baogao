@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>主要规则</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/主要规则/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/主要规则/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (表格) -->
+      <div id="u271" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u272" class="ax_default table_cell">
+          <img id="u272_img" class="img " src="images/主要规则/u272.png"/>
+          <!-- Unnamed () -->
+          <div id="u273" class="text" style="visibility: visible;">
+            <p><span>需求主要规则</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u274" class="ax_default table_cell">
+          <img id="u274_img" class="img " src="images/主要规则/u274.png"/>
+          <!-- Unnamed () -->
+          <div id="u275" class="text" style="visibility: visible;">
+            <p><span>&#149; 慈云系统按照一定的时间区间去提取EMR和HIS中的报告（出院记录、住院医嘱单、门诊医嘱单）；避免报告重复提取</span></p><p><span>&#149; 提取报告中的手机号创建虚拟账号（如果手机号已注册则不需要重复注册），并将含有该手机号并且没有被领取的报告全部挂在该用户头上（状态为“未领取”）</span></p><p><span>&#149; 在报告没有被领取前，报告仅供查看和搜索，报告中的信息不会与用户的体征数据以及阳标等信息产生关联，被领取后报告中相应的体征数据才会展示在对应用户的体检记录列表中</span></p><p><span>&#149; 报告只有在领取后，用户才能在APP上看到相应的报告，但是医生可以在用户面板中看到用户未领取的报告</span></p><p><span style="color:#FF0000;">现网的其他体检报告，不受此次需求的影响</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
