@@ -52,24 +52,33 @@
     <div id="base" class="">
 
       <!-- Unnamed (表格) -->
-      <div id="u271" class="ax_default">
+      <div id="u277" class="ax_default">
 
         <!-- Unnamed (单元格) -->
-        <div id="u272" class="ax_default table_cell">
-          <img id="u272_img" class="img " src="images/主要规则/u272.png"/>
+        <div id="u278" class="ax_default table_cell">
+          <img id="u278_img" class="img " src="images/主要规则/u278.png"/>
           <!-- Unnamed () -->
-          <div id="u273" class="text" style="visibility: visible;">
+          <div id="u279" class="text" style="visibility: visible;">
             <p><span>需求主要规则</span></p>
           </div>
         </div>
 
         <!-- Unnamed (单元格) -->
-        <div id="u274" class="ax_default table_cell">
-          <img id="u274_img" class="img " src="images/主要规则/u274.png"/>
+        <div id="u280" class="ax_default table_cell">
+          <img id="u280_img" class="img " src="images/主要规则/u280.png"/>
           <!-- Unnamed () -->
-          <div id="u275" class="text" style="visibility: visible;">
+          <div id="u281" class="text" style="visibility: visible;">
             <p><span>&#149; 慈云系统按照一定的时间区间去提取EMR和HIS中的报告（出院记录、住院医嘱单、门诊医嘱单）；避免报告重复提取</span></p><p><span>&#149; 提取报告中的手机号创建虚拟账号（如果手机号已注册则不需要重复注册），并将含有该手机号并且没有被领取的报告全部挂在该用户头上（状态为“未领取”）</span></p><p><span>&#149; 在报告没有被领取前，报告仅供查看和搜索，报告中的信息不会与用户的体征数据以及阳标等信息产生关联，被领取后报告中相应的体征数据才会展示在对应用户的体检记录列表中</span></p><p><span>&#149; 报告只有在领取后，用户才能在APP上看到相应的报告，但是医生可以在用户面板中看到用户未领取的报告</span></p><p><span style="color:#FF0000;">现网的其他体检报告，不受此次需求的影响</span></p>
           </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u282" class="ax_default label">
+        <div id="u282_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u283" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">&#149; 2018-05-18 与医院确认内容</span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">&#149; 技术上</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 《住院医嘱》获取路径：住院号→病人id→主页id（本院住院次数）→本次患者住院的所有医嘱</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 《门诊医嘱》获取路径：挂号单→获取本次患者门诊的所有医嘱</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; </span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">&#149; 展示上</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 慈云平台从EMR和HIS系统仅提取住院已结束的《出院记录》《住院医嘱单》以及门诊已结束的《门诊医嘱单》；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 其中《住院医嘱单》中仅展示状态为“已停止”的医嘱；《门诊医嘱单》中仅展示状态为“已发送”的医嘱</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 住院医嘱分“长嘱”和“临嘱”的区分；门诊医嘱不分类型。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; </span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 具体内容（原则上医院系统展示什么，慈云平台则展示什么，不做任何变更）</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 《出院记录》：入院诊断，出院诊断可以存在多条；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 出院医嘱只有一条，除非作废后重新下出院医嘱；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 出院情况只有一种，医生选择一种；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 诊疗经过及疗效和病情摘要，不存在多条，都是一个段落；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">&#149; 号类：普通，特珍和专家；门诊类型就是急诊和普通门诊</span></p>
         </div>
       </div>
     </div>
