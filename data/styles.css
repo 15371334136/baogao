@@ -9,26 +9,9 @@
 }
 .box_1 {
 }
-.ellipse {
-}
-.checkbox {
-  text-align:left;
-}
-._流程形状 {
-}
-.droplist {
-  color:#000000;
-  text-align:left;
-}
-.text_field {
-  color:#000000;
-  text-align:left;
-}
 .box_2 {
 }
-.box_3 {
-}
-.image {
+._图片 {
 }
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
@@ -71,35 +54,48 @@
   font-size:10px;
   text-align:left;
 }
-._图片 {
+._文本段落 {
+  text-align:left;
+}
+._图片1 {
   color:#000000;
+}
+.icon {
+}
+.line {
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.checkbox {
+  text-align:left;
+}
+._流程形状 {
+}
+.table_cell {
 }
 .label {
   font-size:14px;
   text-align:left;
 }
-._文本段落 {
+.box_3 {
+}
+.box_11 {
+}
+.box_31 {
+}
+.label1 {
+  font-size:14px;
   text-align:left;
 }
-._连接线 {
-  font-family:'Arial Normal', 'Arial';
-  font-weight:400;
-  font-style:normal;
-  font-size:13px;
-  color:#333333;
+.ellipse {
   text-align:center;
-  line-height:normal;
 }
-.line {
-}
-.text_area {
+._图片2 {
   color:#000000;
-  text-align:left;
 }
-.radio_button {
-  text-align:left;
+.line1 {
 }
-.table_cell {
-}
-.icon {
+.placeholder {
 }
