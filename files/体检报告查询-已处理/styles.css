@@ -664,7 +664,7 @@
 #u420 {
   position:absolute;
   left:23px;
-  top:497px;
+  top:534px;
   width:173px;
   height:38px;
   text-align:left;
@@ -2433,4 +2433,37 @@
 }
 #u558_input:disabled {
   color:grayText;
+}
+#u559_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:173px;
+  height:38px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(204, 204, 204, 1);
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  text-align:left;
+}
+#u559 {
+  position:absolute;
+  left:23px;
+  top:497px;
+  width:173px;
+  height:38px;
+  text-align:left;
+}
+#u560 {
+  position:absolute;
+  left:2px;
+  top:11px;
+  width:169px;
+  word-wrap:break-word;
 }
