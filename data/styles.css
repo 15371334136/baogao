@@ -7,11 +7,7 @@
   text-align:center;
   line-height:normal;
 }
-.box_1 {
-}
-.box_2 {
-}
-._图片 {
+.placeholder {
 }
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
@@ -57,60 +53,29 @@
 ._文本段落 {
   text-align:left;
 }
-._图片1 {
-  color:#000000;
+.box_1 {
 }
-.icon {
+.ellipse {
+}
+.image {
 }
 .line {
-}
-.text_field {
-  color:#000000;
-  text-align:left;
-}
-.droplist {
-  color:#000000;
-  text-align:left;
-}
-.checkbox {
-  text-align:left;
-}
-._流程形状 {
-}
-.table_cell {
-}
-._连接线 {
-  font-family:'Arial Normal', 'Arial';
-  font-weight:400;
-  font-style:normal;
-  font-size:16px;
-  color:#1E1E1E;
-  text-align:center;
-  line-height:normal;
 }
 .label {
   font-size:14px;
   text-align:left;
 }
-.box_3 {
-}
-.ellipse {
-}
-.box_11 {
-}
-.box_31 {
-}
-.label1 {
-  font-size:14px;
-  text-align:left;
-}
-.ellipse1 {
-  text-align:center;
-}
-._图片2 {
+.image1 {
   color:#000000;
 }
-.line1 {
+.box_3 {
 }
-.placeholder {
+.shape {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
 }
